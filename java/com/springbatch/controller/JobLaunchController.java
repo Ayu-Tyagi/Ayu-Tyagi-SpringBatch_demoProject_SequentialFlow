@@ -21,7 +21,7 @@ public class JobLaunchController {
 	JobLauncher jobLauncher;
 	
 	@Autowired
-	@Qualifier("firstJob")
+	@Qualifier("job1")
 	Job job;
 	
 	
